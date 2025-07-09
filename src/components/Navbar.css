@@ -2,15 +2,15 @@
 
 .navbar-content {
   background-color: #000;
-  padding: 20px 40px; /* More horizontal padding */
-  font-family: 'Lora', serif; /* Classy, soft-serif font */
+  padding: 20px 40px;
+  font-family: 'Lora', serif; 
 }
 
 .navbar-content ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 50px; /* More space between items */
+  gap: 50px;
   margin: 0;
   padding: 0;
 }
@@ -19,11 +19,11 @@
   color: #fff;
   text-decoration: none;
   font-weight: 500;
-  font-size: 20px; /* Slightly smaller, less bold */
+  font-size: 20px; 
   letter-spacing: 1px;
   transition: color 0.3s ease;
 }
 
 .navbar-content ul li a:hover {
-  color: #f39c12; /* Soft gold hover */
+  color: #f39c12; 
 }

@@ -1,0 +1,19 @@
+.book-now-button {
+  padding: 14px 50px;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  border-radius: 50px; 
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+
+.book-now-button:hover {
+  background: #f39c12;
+  color: #000;
+  border-color: #f39c12;
+}

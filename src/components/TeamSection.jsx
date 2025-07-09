@@ -1,5 +1,6 @@
-import React from 'react';
-import './TeamSection.css';
+import React from "react";
+import "./TeamSection.css";
+import Button from "../reusable-components/Button/Button";
 
 const TeamSection = () => {
   return (
@@ -8,11 +9,16 @@ const TeamSection = () => {
         <h3>meet our</h3>
         <h2>EXPERT TEAM</h2>
         <p>
-          Fiery curl color wavy frohawk ombre bantuknots. Wavy ultrashort natural fingerwave twist fingerwave, fauxhawk ultrashort halobraid fuchsia.
+          Fiery curl color wavy frohawk ombre bantuknots. Wavy ultrashort
+          natural fingerwave twist fingerwave, fauxhawk ultrashort halobraid
+          fuchsia.
         </p>
         <p>
-          Washandgo salon fauxhawk bouncy fuchsia afropuff fiery fingerwave hair. Locks microbraids curl ultrashort hair, fingerwave pompadour hair braids braids halobraid dye dredlocks.
+          Washandgo salon fauxhawk bouncy fuchsia afropuff fiery fingerwave
+          hair. Locks microbraids curl ultrashort hair, fingerwave pompadour
+          hair braids braids halobraid dye dredlocks.
         </p>
+         <Button label="ABOUT US" />
       </div>
       <div className="team-image">
         <img
@@ -20,6 +26,7 @@ const TeamSection = () => {
           alt="Expert Team"
         />
       </div>
+     
     </section>
   );
 };

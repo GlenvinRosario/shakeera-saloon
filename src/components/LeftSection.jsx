@@ -1,5 +1,6 @@
 import React from 'react';
 import './LeftSection.css';
+import Button from '../reusable-components/Button/Button';
 
 const LeftSection = () => {
   return (
@@ -14,7 +15,7 @@ const LeftSection = () => {
           Washandgo salon fauxhawk bouncy fuchsia afropuff fiery fingerwave hair. Locks microbraids curl ultrashort hair, fingerwave pompadour hair braids braids halobraid dye dredlocks.
         </p>
         
-        <button className="view-services-button">VIEW SERVICES</button>
+       <Button label="VIEW SERVICES" />
       </div>
     </div>
   );

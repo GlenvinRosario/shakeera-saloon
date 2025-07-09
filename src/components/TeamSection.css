@@ -59,7 +59,7 @@
 
 .team-image {
   flex: 1;
-  margin-top: -60px; /* Move image upwards for sexy offset */
+  margin-top: -60px; 
 }
 
 .team-image img {

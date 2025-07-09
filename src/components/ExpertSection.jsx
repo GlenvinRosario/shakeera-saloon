@@ -1,5 +1,6 @@
 import React from 'react';
 import './ExpertSection.css';
+import Button from '../reusable-components/Button/Button';
 
 const ExpertSection = () => {
   return (
@@ -16,7 +17,7 @@ const ExpertSection = () => {
   ultrashort halobraid fuchsia.
 </p>
 
-        <button className="book-now-button">BOOK NOW</button>
+        <Button label="BOOK NOW" />
     </section>
   );
 };
