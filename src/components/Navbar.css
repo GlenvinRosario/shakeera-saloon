@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+.navbar-content {
+  background-color: #000;
+  padding: 20px 40px; /* More horizontal padding */
+  font-family: 'Lora', serif; /* Classy, soft-serif font */
+}
+
+.navbar-content ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 50px; /* More space between items */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-content ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px; /* Slightly smaller, less bold */
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.navbar-content ul li a:hover {
+  color: #f39c12; /* Soft gold hover */
+}

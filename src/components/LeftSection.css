@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap');
+
+.left-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.welcome-text {
+  max-width: 550px;
+  text-align: left;
+}
+
+.welcome-line {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px; /* Same size as THE STUDIO or slightly smaller */
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.studio-line {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  margin: 10px 0 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 0 20px;
+}
+
+.extra-description {
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.view-services-button {
+    margin-top: 50px;
+  padding: 12px 40px; /* Taller & wider for oval shape */
+  border: 2px solid #fff; /* White border */
+  background: transparent; /* Transparent background */
+  color: #fff; /* White text */
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  border-radius: 50px; /* Oval shape */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.view-services-button:hover {
+  background: #f39c12; /* Soft gold on hover (or pick any color) */
+  color: #000; /* Black text on hover */
+  border-color: #f39c12;
+}
+
