@@ -1,5 +1,5 @@
-import React from 'react';
-import './AboutSection.css';
+import React from "react";
+import "./AboutSection.css";
 
 const AboutSection = () => {
   return (
@@ -14,10 +14,14 @@ const AboutSection = () => {
         <h3>GET TO KNOW US</h3>
         <h2>ABOUT our BUSINESS</h2>
         <p>
-          Fiery curl color wavy frohawk ombre bantuknots. Wavy ultrashort natural fingerwave twist fingerwave, fauxhawk ultrashort halobraid fuchsia.
+          Fiery curl color wavy frohawk ombre bantuknots. Wavy ultrashort
+          natural fingerwave twist fingerwave, fauxhawk ultrashort halobraid
+          fuchsia.
         </p>
         <p>
-          Washandgo salon fauxhawk bouncy fuchsia afropuff fiery fingerwave hair. Locks microbraids curl ultrashort hair, fingerwave pompadour hair braids braids halobraid dye dredlocks.
+          Washandgo salon fauxhawk bouncy fuchsia afropuff fiery fingerwave
+          hair. Locks microbraids curl ultrashort hair, fingerwave pompadour
+          hair braids braids halobraid dye dredlocks.
         </p>
       </div>
     </section>

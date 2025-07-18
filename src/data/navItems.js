@@ -19,4 +19,5 @@ export const NAVBAR_ELEMENTS = [
     label: "CONTACT",
     path: "/contact",
   },
+  
 ];

@@ -1,6 +1,6 @@
 import React from "react";
 import "./RightSection.css";
-import anushkaImage from "../images/anushka-2.jpg";
+import anushkaImage from "../images/main-frame-girl.avif";
 
 const RightSection = () => {
   return (
